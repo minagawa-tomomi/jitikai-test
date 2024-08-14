@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自治会ホームページ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>自治会ホームページ</h1>
+        <nav>
+            <ul>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">お知らせ</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>お知らせ</h2>
+            <p>最新のお知らせをここに表示します。</p>
+        </section>
+        <section>
+            <h2>LINEにメッセージを送信</h2>
+            <form id="lineForm">
+                <label for="message">メッセージ:</label>
+                <input type="text" id="message" name="message" required>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 自治会ホームページ</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
